@@ -1,0 +1,363 @@
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul, dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object, a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span, strong, sub, sup, tt, var, legend, fieldset {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset {
+    border: 0 none;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    color: #666;
+    font: 0.81em/150% Arial,Helvetica,sans-serif;
+}
+a {
+    color: #026acb;
+    outline: medium none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    margin: 0 0 1.2em;
+    padding: 0;
+}
+ul, ol {
+    line-height: 140%;
+    margin: 1em 0 1.4em 24px;
+    padding: 0;
+}
+li {
+    margin: 0 0 0.5em;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    line-height: 1.4em;
+    margin: 20px 0 0.4em;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+h6 {
+    font-size: 1em;
+}
+input[type="search"] {
+    outline: medium none;
+}
+#pagewrap {
+    margin: 0 auto;
+    width: 980px;
+}
+#header {
+    height: 160px;
+    position: relative;
+}
+#site-logo {
+    position: absolute;
+    top: 10px;
+}
+#site-logo a {
+    color: #fff;
+    font: bold 30px/100% Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+#site-description {
+    color: #fff;
+    font: italic 100%/130% "Times New Roman",Times,serif;
+    left: 85px;
+    position: absolute;
+    top: 40px;
+}
+#searchform {
+    bottom: 6px;
+    position: absolute;
+    right: 10px;
+    width: 160px;
+    z-index: 100;
+}
+#searchform #s {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+    float: right;
+    padding: 6px 10px;
+    transition: width 0.7s ease 0s;
+    width: 140px;
+}
+#main-nav {
+    background: rgba(0, 0, 0, 0) linear-gradient(-90deg, #b9b9b9, #6a6a6a) repeat scroll 0 0;
+    border-radius: 8px;
+    bottom: 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.4);
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+#main-nav li {
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#main-nav li:first-child {
+    margin-left: 10px;
+}
+#main-nav a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 100%;
+    padding: 14px 15px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+#main-nav a:hover {
+    background: rgba(0, 0, 0, 0) linear-gradient(-90deg, #282828, #4f4f4f) repeat scroll 0 0;
+    color: #fff;
+}
+#content {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    float: left;
+    margin: 30px 0;
+    padding: 20px 35px;
+    width: 600px;
+}
+.post {
+    margin-bottom: 40px;
+}
+.post-title {
+    font: bold 26px/120% Arial,Helvetica,sans-serif;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.post-title a {
+    color: #000;
+    text-decoration: none;
+}
+.post-meta {
+    font-size: 90%;
+    margin: 0 0 10px;
+}
+.post-image {
+    margin: 0 0 15px;
+}
+#sidebar {
+    float: right;
+    margin: 30px 0;
+    width: 280px;
+}
+.widget {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 0 0 30px;
+    padding: 10px 20px;
+}
+.widgettitle {
+    margin: 0 0 5px;
+    padding: 0;
+}
+.widget ul {
+    margin: 0;
+    padding: 0;
+}
+.widget li {
+    border-top: 1px solid #eee;
+    clear: both;
+    list-style: outside none none;
+    margin: 0;
+    padding: 6px 0;
+}
+.widget .flickr_badge_image {
+    margin-top: 10px;
+}
+.widget .flickr_badge_image img {
+    float: left;
+    height: 48px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    width: 48px;
+}
+.widget-tab {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    margin: 0 0 30px;
+    padding: 10px 20px;
+}
+#footer {
+    clear: both;
+    color: #ccc;
+    font-size: 85%;
+}
+#footer a {
+    color: #fff;
+}
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+table {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-collapse: separate;
+    box-shadow: 0 1px 0 #fff inset;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 30px auto;
+    text-align: left;
+    width: 960px;
+}
+th {
+    background: url("http://jackrugile.com/images/misc/noise-diagonal.png") repeat scroll 0 0%, rgba(0, 0, 0, 0) linear-gradient(#777, #444) repeat scroll 0 0;
+    border-color: #555 #777 #333 #555;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #999 inset;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;
+}
+th::after {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.08)) repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 25%;
+    left: 0;
+    margin: 1px 0 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+th:first-child {
+    border-left: 1px solid #777;
+    box-shadow: 1px 1px 0 #999 inset;
+}
+th:last-child {
+    box-shadow: -1px 1px 0 #999 inset;
+}
+td {
+    border-color: #fff #fff #e8e8e8 #e8e8e8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms ease 0s;
+}
+td:first-child {
+    box-shadow: 1px 0 0 #fff inset;
+}
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: -1px 0 0 #fff inset;
+}
+tr {
+    background: rgba(0, 0, 0, 0) url("http://jackrugile.com/images/misc/noise-diagonal.png") repeat scroll 0 0;
+}
+tr:nth-child(2n+1) td {
+    background: #f1f1f1 url("http://jackrugile.com/images/misc/noise-diagonal.png") repeat scroll 0 0;
+}
+tr:last-of-type td {
+    box-shadow: 0 -1px 0 #fff inset;
+}
+tr:last-of-type td:first-child {
+    box-shadow: 1px -1px 0 #fff inset;
+}
+tr:last-of-type td:last-child {
+    box-shadow: -1px -1px 0 #fff inset;
+}
+tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #aaa;
+}
+tbody:hover tr:hover td {
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+.button-success {
+    background: rgb(28, 184, 65) none repeat scroll 0 0;
+}
+.button-error {
+    background: rgb(202, 60, 60) none repeat scroll 0 0;
+}
+.button-warning {
+    background: rgb(223, 117, 20) none repeat scroll 0 0;
+}
+.button-secondary {
+    background: rgb(66, 184, 221) none repeat scroll 0 0;
+    border-radius: 4px;
+    color: white !important;
+    height: 30px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    width: 100px;
+}
+button a {
+    color: white;
+}
+.top-style {
+    background-color: #515151;
+    color: #fff;
+    padding: 8px;
+}
+
+.message{
+	background-color: #D5EACD;
+    color: #3C7A6D;
+    padding: 8px;
+    width: 950px;
+    margin: 20px auto;
+}
+
+.message-error{
+	background-color: #FFC0CB;
+    color: #A94442;
+    padding: 8px;
+    width: 950px;
+    margin: 20px auto;
+    font-weight:bold;
+    font-size:16px;
+}
